@@ -10,6 +10,9 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1vlDOvKqKxwIRBCuw7JYgWsdLYq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,6 +34,7 @@
       <option name="presentableId" value="Default" />
       <updated>1627127754388</updated>
       <workItem from="1627127756050" duration="2727000" />
+      <workItem from="1627130785761" duration="361000" />
     </task>
     <servers />
   </component>
