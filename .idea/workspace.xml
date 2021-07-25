@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dae5adb0-2ea6-433c-aa41-eefbc2a544dc" name="Default Changelist" comment="add style file" />
+    <list default="true" id="dae5adb0-2ea6-433c-aa41-eefbc2a544dc" name="Default Changelist" comment="remove tests files">
+      <change afterPath="$PROJECT_DIR$/application/controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/router/Routing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/traits/Redirect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/traits/View.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/config.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +17,14 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,7 +51,8 @@
       <option name="presentableId" value="Default" />
       <updated>1627127754388</updated>
       <workItem from="1627127756050" duration="2727000" />
-      <workItem from="1627130785761" duration="731000" />
+      <workItem from="1627130785761" duration="1081000" />
+      <workItem from="1627211060400" duration="7324000" />
     </task>
     <task id="LOCAL-00001" summary="add style file">
       <created>1627131364139</created>
@@ -44,7 +61,21 @@
       <option name="project" value="LOCAL" />
       <updated>1627131364139</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add js file">
+      <created>1627131535064</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627131535064</updated>
+    </task>
+    <task id="LOCAL-00003" summary="remove tests files">
+      <created>1627131580394</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1627131580394</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -60,9 +91,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add style file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add style file" />
+    <MESSAGE value="add js file" />
+    <MESSAGE value="remove tests files" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove tests files" />
   </component>
 </project>
