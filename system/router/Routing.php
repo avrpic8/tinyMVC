@@ -19,7 +19,7 @@ class Routing
 
     public function run()
     {
-        $path = realpath(dirname(__FILE__) . "/../../application/controllers" . $this->currentRout[0] . ".php");
+        $path = realpath(dirname(__FILE__) . "/../../application/controllers/" . $this->currentRout[0] . ".php");
         if(!file_exists($path)){
             echo "404 - File not exist!!";
             exit();
