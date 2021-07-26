@@ -18,7 +18,5 @@ trait View
         }
         else
             echo "this view [".$dir."] not exist!";
-
-
     }
 }

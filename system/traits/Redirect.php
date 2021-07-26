@@ -6,7 +6,7 @@ trait Redirect
 {
     protected function redirect($url){
         $protocol = stripos($_SERVER['SERVER_PROTOCOL'], 'https') === true ? 'https://' : 'http://';
-        header("Location: " . $protocol . $_SERVER['HTTP_HOST'] . "/tinyMVC" . $url);
+        header("Location: " . $protocol . $_SERVER['HTTP_HOST'] . "/tinyMVC/" . $url);
     }
 
     protected function back(){
