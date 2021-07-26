@@ -8,6 +8,7 @@ $current_rout = str_replace($base_dir,'', $tmp[0]);
 unset($tmp);
 
 
+// database constant
 $dbHost = 'localhost';
 $dbName = 'mvc_blog';
 $dbUserName = 'root';

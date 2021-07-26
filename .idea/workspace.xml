@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dae5adb0-2ea6-433c-aa41-eefbc2a544dc" name="Default Changelist" comment="trait view">
-      <change afterPath="$PROJECT_DIR$/application/model/Model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/view/app/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/bootstrap/AutoLoad.php" afterDir="false" />
+    <list default="true" id="dae5adb0-2ea6-433c-aa41-eefbc2a544dc" name="Default Changelist" comment="AutoLoad added">
+      <change afterPath="$PROJECT_DIR$/application/view/app/category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/view/app/layouts/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/view/app/layouts/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/view/app/show.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/view/panel/article/create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/view/panel/article/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/view/panel/article/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/view/panel/category/create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/view/panel/category/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/view/panel/category/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/view/panel/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/view/panel/layouts/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/view/panel/layouts/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/bootstrap/boot.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/bootstrap/boot.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/view/app/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/app/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/traits/Redirect.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/traits/Redirect.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/traits/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/traits/View.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,11 +44,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1vlDOvKqKxwIRBCuw7JYgWsdLYq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -58,7 +73,7 @@
       <workItem from="1627211060400" duration="11126000" />
       <workItem from="1627222212696" duration="36000" />
       <workItem from="1627285264182" duration="2799000" />
-      <workItem from="1627297558529" duration="4397000" />
+      <workItem from="1627297558529" duration="8097000" />
     </task>
     <task id="LOCAL-00001" summary="add style file">
       <created>1627131364139</created>
@@ -95,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627222238439</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="AutoLoad added">
+      <created>1627302231222</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1627302231222</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,11 +136,13 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add style file" />
     <MESSAGE value="add js file" />
     <MESSAGE value="remove tests files" />
     <MESSAGE value="traits and controller" />
     <MESSAGE value="trait view" />
-    <option name="LAST_COMMIT_MESSAGE" value="trait view" />
+    <MESSAGE value="AutoLoad added" />
+    <option name="LAST_COMMIT_MESSAGE" value="AutoLoad added" />
   </component>
 </project>
