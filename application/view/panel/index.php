@@ -1,3 +1,4 @@
+<?php $this->include("panel.layouts.header");?>
 
                 <section style="min-height: 80vh;" class="d-flex justify-content-center align-items-center">
                     <section>
@@ -9,3 +10,5 @@
                         </ul>
                     </section>
                 </section>
+
+<?php $this->include("panel.layouts.footer");?>

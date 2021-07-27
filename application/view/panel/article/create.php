@@ -1,5 +1,4 @@
-
-
+<?php $this->include("panel.layouts.header");?>
                 <form>
                     <section class="form-group">
                         <label for="title">Title</label>
@@ -16,6 +15,7 @@
                         <label for="body">Body</label>
                         <textarea class="form-control" id="body" rows="5" placeholder="body ..."></textarea>
                     </section>
-                    <button type="submit" class="btn btn-primary">Update</button>
+                    <button type="submit" class="btn btn-primary">Create</button>
                 </form>
 
+<?php $this->include("panel.layouts.footer");?>

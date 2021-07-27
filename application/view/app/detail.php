@@ -1,10 +1,11 @@
+<?php $this->include("app.layouts.header");?>
     <section class="container my-5">
         <!-- Example row of columns -->
         <section class="row">
             <section class="col-md-12">
                 <h1>Lorem ipsum dolor sit amet, consectetur?</h1>
                 <h5 class="d-flex justify-content-between align-items-center">
-                    <a href="category.html">Lorem ipsum dolor</a>
+                    <a href="category.php">Lorem ipsum dolor</a>
                     <span class="date-time">26 feb 2019</span>
                 </h5>
                 <article class="bg-article p-3">
@@ -17,3 +18,5 @@
             </section>
         </section>
     </section>
+
+<?php $this->include("app.layouts.footer");?>
