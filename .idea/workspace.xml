@@ -1,24 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dae5adb0-2ea6-433c-aa41-eefbc2a544dc" name="Default Changelist" comment="tinyMvc Layout">
-      <change afterPath="$PROJECT_DIR$/application/controllers/Article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/controllers/Category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/controllers/Panel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/model/Article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/model/Category.php" afterDir="false" />
+    <list default="true" id="dae5adb0-2ea6-433c-aa41-eefbc2a544dc" name="Default Changelist" comment="Article model completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/app/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/app/category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/app/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/app/detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/app/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/panel/article/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/article/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/panel/article/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/article/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/panel/article/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/article/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/panel/category/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/category/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/panel/category/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/category/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/panel/category/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/category/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/panel/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,14 +33,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="dae5adb0-2ea6-433c-aa41-eefbc2a544dc" name="Default Changelist" comment="" />
@@ -70,7 +59,7 @@
       <workItem from="1627222212696" duration="36000" />
       <workItem from="1627285264182" duration="2799000" />
       <workItem from="1627297558529" duration="8166000" />
-      <workItem from="1627383578436" duration="7728000" />
+      <workItem from="1627383578436" duration="8337000" />
     </task>
     <task id="LOCAL-00001" summary="add style file">
       <created>1627131364139</created>
@@ -128,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627384633485</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Article model completed">
+      <created>1627392627177</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1627392627177</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +152,11 @@
     <MESSAGE value="AutoLoad added" />
     <MESSAGE value="asset include url" />
     <MESSAGE value="tinyMvc Layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="tinyMvc Layout" />
+    <MESSAGE value="Article model completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Article model completed" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
