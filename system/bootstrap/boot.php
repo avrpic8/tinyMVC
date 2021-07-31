@@ -2,11 +2,14 @@
 
 session_start();
 
-use System\Bootstrap\AutoLoad;
-use System\router\Routing;
+require_once('system/config.php');
+require_once('system/bootstrap/Autoload.php');
 
-$autoLoad = new AutoLoad();
-$autoLoad->autoLoader();
+use System\Bootstrap\Autoload;
+use System\Router\Routing;
+
+$autoload = new Autoload();
+$autoload->autoloader();
 
 $router = new Routing();
 $router->run();

@@ -4,7 +4,7 @@
 
 </section>
 
-<script src="../js/jquery.min.js"></script>
-<script src="../js/bootstrap.min.js"></script>
+<script src="<?php $this->asset('js/jquery.min.css')?>"></script>
+<script src="<?php $this->asset('js/bootstrap.min.css')?>"></script>
 </body>
 </html>

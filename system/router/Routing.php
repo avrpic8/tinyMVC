@@ -1,12 +1,12 @@
 <?php
 
-namespace System\router;
+namespace System\Router;
+
 
 use ReflectionMethod;
 
 class Routing
 {
-
     private $currentRout;
 
     public function __construct()
@@ -17,8 +17,8 @@ class Routing
         $this->currentRout = explode('/', $current_rout);
     }
 
-    public function run()
-    {
+    public function run(){
+
         $path = realpath(dirname(__FILE__) . "/../../application/controllers/" . $this->currentRout[0] . ".php");
         if(!file_exists($path)){
             echo "404 - File not exist!!";
