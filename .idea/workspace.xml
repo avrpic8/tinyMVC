@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dae5adb0-2ea6-433c-aa41-eefbc2a544dc" name="Default Changelist" comment="fixing Autoload.php class">
+    <list default="true" id="dae5adb0-2ea6-433c-aa41-eefbc2a544dc" name="Default Changelist" comment="Article model completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/view/panel/article/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/article/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/view/panel/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/layouts/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/bootstrap/Autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/bootstrap/Autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/router/Routing.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/router/Routing.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +26,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1vlDOvKqKxwIRBCuw7JYgWsdLYq" />
   <component name="ProjectLevelVcsManager">
@@ -63,6 +67,7 @@
       <workItem from="1627383578436" duration="8513000" />
       <workItem from="1627715346677" duration="4071000" />
       <workItem from="1627728686836" duration="12411000" />
+      <workItem from="1627759992173" duration="1472000" />
     </task>
     <task id="LOCAL-00001" summary="add style file">
       <created>1627131364139</created>
