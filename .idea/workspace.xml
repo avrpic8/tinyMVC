@@ -1,46 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dae5adb0-2ea6-433c-aa41-eefbc2a544dc" name="Default Changelist" comment="datasource add">
-      <change afterPath="$PROJECT_DIR$/system/bootstrap/Autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tinyMVC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tinyMVC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="dae5adb0-2ea6-433c-aa41-eefbc2a544dc" name="Default Changelist" comment="fixing Autoload.php class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/Panel.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Panel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/model/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/model/Article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/model/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/model/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/model/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/model/Model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/app/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/app/category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/app/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/app/detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/app/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/app/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/app/layouts/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/app/layouts/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/app/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/app/layouts/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/panel/article/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/article/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/panel/article/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/article/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/panel/article/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/article/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/panel/category/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/category/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/panel/category/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/category/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/panel/category/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/category/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/panel/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/panel/layouts/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/layouts/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/panel/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/layouts/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/bootstrap/AutoLoad.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/bootstrap/boot.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/bootstrap/boot.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/router/Routing.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/router/Routing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/traits/Redirect.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/traits/Redirect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/traits/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/traits/View.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/bootstrap/Autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/bootstrap/Autoload.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +62,7 @@
       <workItem from="1627297558529" duration="8166000" />
       <workItem from="1627383578436" duration="8513000" />
       <workItem from="1627715346677" duration="4071000" />
-      <workItem from="1627728686836" duration="11058000" />
+      <workItem from="1627728686836" duration="12411000" />
     </task>
     <task id="LOCAL-00001" summary="add style file">
       <created>1627131364139</created>
@@ -171,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627393278402</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fixing Autoload.php class">
+      <created>1627739898272</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1627739898272</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +171,8 @@
     <MESSAGE value="tinyMvc Layout" />
     <MESSAGE value="Article model completed" />
     <MESSAGE value="datasource add" />
-    <option name="LAST_COMMIT_MESSAGE" value="datasource add" />
+    <MESSAGE value="fixing Autoload.php class" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing Autoload.php class" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
