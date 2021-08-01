@@ -3,10 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="dae5adb0-2ea6-433c-aa41-eefbc2a544dc" name="Default Changelist" comment="Article model completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/panel/article/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/article/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/view/panel/article/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/article/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/view/panel/article/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/article/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/view/panel/category/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/category/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/view/panel/category/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/category/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/view/panel/category/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/category/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/view/panel/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/layouts/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/bootstrap/Autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/bootstrap/Autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/router/Routing.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/router/Routing.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +47,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
