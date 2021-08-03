@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dae5adb0-2ea6-433c-aa41-eefbc2a544dc" name="Default Changelist" comment="Article model completed">
+    <list default="true" id="dae5adb0-2ea6-433c-aa41-eefbc2a544dc" name="Default Changelist" comment="category dynamic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/panel/article/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/article/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/panel/article/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/article/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/panel/category/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/category/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/model/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/model/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/model/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/model/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/view/app/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/app/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/view/app/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/app/show.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/view/app/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/app/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/view/app/layouts/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/app/layouts/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/view/app/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/app/layouts/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/view/panel/category/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/category/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/panel/category/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/category/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/view/panel/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/view/panel/layouts/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +73,8 @@
       <workItem from="1627715346677" duration="4071000" />
       <workItem from="1627728686836" duration="12411000" />
       <workItem from="1627759992173" duration="1472000" />
+      <workItem from="1627977263990" duration="1985000" />
+      <workItem from="1627988438698" duration="5003000" />
     </task>
     <task id="LOCAL-00001" summary="add style file">
       <created>1627131364139</created>
@@ -149,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627739898272</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="category dynamic">
+      <created>1627824755319</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1627824755319</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +191,8 @@
     <MESSAGE value="Article model completed" />
     <MESSAGE value="datasource add" />
     <MESSAGE value="fixing Autoload.php class" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing Autoload.php class" />
+    <MESSAGE value="category dynamic" />
+    <option name="LAST_COMMIT_MESSAGE" value="category dynamic" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

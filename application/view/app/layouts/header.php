@@ -17,15 +17,16 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="<?php echo $this->url('home') ?>">خانه <span class="sr-only">(current)</span></a>
-                </li>
+            <ul class="navbar-nav ml-auto">
                 <?php foreach($categories as $category) {   ?>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?php echo $this->url('home/category/'.$category['id']); ?>"><?php echo $category['name']; ?></a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo $this->url('home/category/'.$category['id']); ?>"><?php echo $category['name']; ?></a>
+                    </li>
                 <?php }?>
+                <li class="nav-item active">
+                    <a class="nav-link" href="<?php echo $this->url('home') ?>">خانه <span class="sr-only">(current)
+                        </span></a>
+                </li>
             </ul>
         </div>
     </nav>

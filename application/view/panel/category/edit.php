@@ -1,6 +1,6 @@
 <?php $this->include("panel.layouts.header");?>
 
-                <form accept-charset="<?php $this->url('category/update/' . $category['id']); ?>" method="post">
+                <form action="<?php $this->url('category/update/' . $category['id']); ?>" method="post">
                     <section class="form-group">
                         <label for="name">Name</label>
                         <input value="<?php echo $category['name']; ?>" type="text" class="form-control" id="name"

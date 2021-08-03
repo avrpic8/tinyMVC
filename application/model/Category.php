@@ -17,8 +17,8 @@ class Category extends Model {
 
     public function articles($cat_id){
 
-        $query = "SELECT * FROM `articles` WHERE  cat_id =?;";
-        $result = $this->query($query, array($cat_id))->fetch();
+        $query = "SELECT * FROM `articles` WHERE  cat_id =?";
+        $result = $this->query($query, array($cat_id))->fetchAll();
         $this->closeConnection();
         return $result;
     }
@@ -40,7 +40,7 @@ class Category extends Model {
 
     public function update($id, $values){
 
-        $query = "UPDATE `categories` SET `name` =?, `description`=?, `created_at`= now() WHERE `id`=?;";
+        $query = "UPDATE `categories` SET `name` =?, `description`=?, `update_at`= now() WHERE `id`=?;";
         $this->execute($query, array_merge(array_values($values), [$id]));
         $this->closeConnection();
     }
